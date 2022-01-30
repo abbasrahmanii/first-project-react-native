@@ -26,6 +26,11 @@ import HomeScreen from "./src/screens/HomeScreen";
 import ListScreen from "./src/screens/ListScreen";
 import ComponentsScreens from "./src/screens/ComponentsScreens";
 import ImageScreen from "./src/screens/ImageScreen";
+import CounterScreen from "./src/screens/CounterScreen";
+import ColorScreen from "./src/screens/ColorScreen";
+import SquareScreen from "./src/screens/SquareScreen";
+import TextScreen from "./src/screens/TextScreen";
+import BoxScreen from "./src/screens/BoxScreen";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 
@@ -43,6 +48,11 @@ const App = () => {
         <Stack.Screen name="List" component={ListScreen} />
         <Stack.Screen name="Components" component={ComponentsScreens} />
         <Stack.Screen name="Image" component={ImageScreen} />
+        <Stack.Screen name="Counter" component={CounterScreen} />
+        <Stack.Screen name="Color" component={ColorScreen} />
+        <Stack.Screen name="Square" component={SquareScreen} />
+        <Stack.Screen name="Text" component={TextScreen} />
+        <Stack.Screen name="Box" component={BoxScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
